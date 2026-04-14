@@ -10,7 +10,6 @@
   }
 
   body {
-    background-color: #0b1528;
     color: #ffffff;
     font-family: "Inter", system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -25,10 +24,10 @@
     width: 5px;
   }
   ::-webkit-scrollbar-track {
-    background: #0b1528;
+    background: #cacdd4;
   }
   ::-webkit-scrollbar-thumb {
-    background: #1e3255;
+    background: #a6b0c2;
     border-radius: 4px;
   }
   ::-webkit-scrollbar-thumb:hover {
@@ -52,6 +51,6 @@
   .service-card {
     @apply bg-[#0f1e35] border border-[#1a2b4a] rounded-2xl p-8
       transition-all duration-300
-      hover:border-[#4b9cf5]/40 hover:bg-[#152340] hover:-translate-y-1;
+      hover:border-[#0f1e35]/40 hover:bg-[#152340] hover:-translate-y-1;
   }
 }

@@ -15,7 +15,7 @@ export default function Footer() {
 {/* Links */}
         {/* Copyright */}
         <p className="text-sm text-[#4a6080]">
-          © 2024 Haritwal Premium Logistics. All rights reserved.
+          © 2026 Haritwal Premium Logistics. All rights reserved.
         </p>
       </div>
     </footer>

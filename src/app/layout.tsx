@@ -19,7 +19,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className="bg-[#0b1528] text-white antialiased">{children}</body>
+     <body>{children}</body>
     </html>
   );
 }

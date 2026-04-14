@@ -39,12 +39,12 @@ export default function Services() {
   return (
     <>
       {/* Services Section */}
-      <section id="services" className="py-24 bg-[#0b1528]">
+      <section id="services" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           {/* Heading */}
           <div className="mb-14">
             <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight">
-              <span className="text-white">Tailored </span>
+              <span className="text-[#0f1e35]">Tailored </span>
               <span className="text-[#4b9cf5]">Services</span>
             </h2>
             <p className="mt-4 text-[#7a9bbf] text-base max-w-md">
@@ -71,17 +71,17 @@ export default function Services() {
       </section>
 
       {/* Performance / Stats Section */}
-      <section id="performance" className="py-20 bg-[#0f1e35]">
+      <section id="performance" className="py-20 bg-[light blue]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="mb-12">
             <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight">
-              <span className="text-white">Our </span>
-              <span className="text-[#4b9cf5]">Performance</span>
+              <span className="text-[#4b9cf5]">Our </span>
+              <span className="text-[#0f1e35]">Performance</span>
             </h2>
-            <p className="mt-4 text-[#7a9bbf] text-base max-w-md">
+            {/* <p className="mt-4 text-[#7a9bbf] text-base max-w-md">
               Numbers that speak louder than words. Consistent excellence since
               2012.
-            </p>
+            </p> */}
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">

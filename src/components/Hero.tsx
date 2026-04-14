@@ -9,23 +9,23 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center pt-16 bg-[#0b1528]"
+      className="min-h-screen flex items-center pt-16 "
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 w-full">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 py-20">
           {/* Left: Text */}
           <div className="flex-1 max-w-2xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight mb-6">
-              <span className="text-white">Precision</span>
-              <br />
-              <span className="text-white">Moving</span>
+              <span className="text-[#0b1528]">Precision</span>
+<br />
+<span className="text-[#0b1528]">Moving</span>
               <br />
               <span className="text-[#4b9cf5]">Perfect</span>
               <br />
               <span className="text-[#4b9cf5]">Delivery</span>
             </h1>
 
-            <p className="text-[#7a9bbf] text-base md:text-lg leading-relaxed mb-10 max-w-md">
+            <p className="text-[black] text-base md:text-lg leading-relaxed mb-10 max-w-md">
               Global logistics meets local care. We handle the heavy lifting
               while you focus on the milestone.
             </p>
@@ -39,9 +39,7 @@ export default function Hero() {
               </button>
               <button
                 onClick={() => scrollTo("services")}
-                className="px-8 py-4 text-base font-semibold text-[#7a9bbf] border border-[#1a2b4a] rounded-xl hover:border-[#4b9cf5]/40 hover:text-white transition-all duration-200"
-              >
-                Our Services
+           className="px-8 py-4 text-base font-semibold text-[#7a9bbf] border border-[#1a2b4a] rounded-xl hover:border-[#0b1528] hover:text-[#0b1528] hover:bg-[#0b1528]/2 transition-all duration-200">   Our Services
               </button>
             </div>
           </div>
