@@ -12,6 +12,7 @@ export default function Footer() {
           </span>
         </div>
 
+{/* Links */}
         {/* Copyright */}
         <p className="text-sm text-[#4a6080]">
           © 2024 Haritwal Premium Logistics. All rights reserved.
