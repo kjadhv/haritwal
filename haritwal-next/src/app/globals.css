@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0b1528;
+    color: #ffffff;
+    font-family: "Inter", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: #4b9cf5;
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0b1528;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e3255;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4b9cf5;
+  }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full bg-[#0f1e35] text-white placeholder-[#3d5070]
+      border border-[#1a2b4a] rounded-xl px-5 py-4 text-sm font-medium
+      outline-none transition-all duration-200
+      focus:border-[#4b9cf5] focus:ring-1 focus:ring-[#4b9cf5]/30;
+  }
+
+  .btn-primary {
+    @apply bg-[#4b9cf5] hover:bg-[#3a8de6] active:scale-[0.98]
+      text-white font-semibold rounded-xl transition-all duration-200 cursor-pointer;
+  }
+
+  .service-card {
+    @apply bg-[#0f1e35] border border-[#1a2b4a] rounded-2xl p-8
+      transition-all duration-300
+      hover:border-[#4b9cf5]/40 hover:bg-[#152340] hover:-translate-y-1;
+  }
+}
