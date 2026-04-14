@@ -6,6 +6,7 @@ interface Service {
   description: string;
 }
 
+//services
 const services: Service[] = [
   {
     icon: <BriefcaseIcon />,
